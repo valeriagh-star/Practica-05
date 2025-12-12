@@ -23,22 +23,37 @@ La práctica buscó que los estudiantes crearan un sistema que no solo gestionar
 
 El proyecto está organizado en la siguiente estructura de directorios:
 
-**Proyecto/
-├── src/
-│   ├── modulos/
-│   │   ├── Usuario.java
-│   │   ├── Administrador.java
-│   │   └── Empleado.java
-│   ├── Interfaces/
-│   │   └── ArregloInterface.java
-│   ├── Main.java
-│   ├── ManejadorLista.java
-│   └── utilidades/
-│       └── ManejadorArchivos.java
-├── BD/
-│   ├── Empleados.txt  <- Archivo de datos de Empleados
-│   └── Administradores.txt <- Archivo de datos de Administradores
-└── README.txt**
+**Proyecto/**
+
+**├── src/**
+
+**│   ├── modulos/**
+
+**│   │   ├── Usuario.java**
+
+**│   │   ├── Administrador.java**
+
+**│   │   └── Empleado.java**
+
+**│   ├── Interfaces/**
+
+**│   │   └── ArregloInterface.java**
+
+**│   ├── Main.java**
+
+**│   ├── ManejadorLista.java**
+
+**│   └── utilidades/**
+
+**│       └── ManejadorArchivos.java**
+
+**├── BD/
+
+**│   ├── Empleados.txt  <- Archivo de datos de Empleados**
+
+**│   └── Administradores.txt <- Archivo de datos de Administradores**
+
+**└── README.txt**
 
 ## 📸 Evidencias (Capturas de pantalla)
 
