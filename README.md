@@ -1,8 +1,7 @@
-<div align="justify">
-# Practica-05
+# Practica 05
 
 ## ✅ Objetivo
-
+<div align="justify">
 La práctica buscó que los estudiantes crearan un sistema que no solo gestionara objetos en memoria, sino que también pudiera guardar y cargar esos objetos en archivos de texto de manera robusta y escalable. Esta práctica se centra en la Persistencia de Datos (lectura/escritura de archivos) y el uso de Genéricos/Polimorfismo en el manejo de colecciones, extendiendo la estructura de clases de la Práctica 04.
 
 ## ✍️ Descripción
