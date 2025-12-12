@@ -18,5 +18,7 @@ Así como también por la Elegancia del Código (Escalabilidad de Mantenimiento)
 1.	No Soporta Tipos Primitivos: Los genéricos generalmente no pueden ser instanciados directamente con tipos primitivos (como int, boolean, double). Se requiere usar sus clases wrapper (Integer, Boolean, Double).
 2.	Complejidad en Clases Anidadas/Herencia: Puede ser un poco más complejo de entender o implementar al principio, especialmente al trabajar con herencia de genéricos o tipos con wildcards avanzados.
 
-3.	Restricciones de Instanciación: En muchos lenguajes (como Java), no se puede instanciar directamente un arreglo del tipo genérico T debido al borrado de tipos (type erasure), lo que a veces requiere soluciones alternativas (como casting inseguro o pasar la clase Class<T> al constructor).
+3.	Restricciones de Instanciación: En muchos lenguajes (como Java), no se puede instanciar directamente un arreglo del tipo genérico T debido al borrado de tipos (type erasure), 
+lo que a veces requiere soluciones alternativas (como casting inseguro o pasar la clase Class<T> al constructor).
+
 
