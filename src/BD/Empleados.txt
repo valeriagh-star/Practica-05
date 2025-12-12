@@ -1,0 +1,11 @@
+Elena,elena@empresa.com,Empleado
+Miguel,miguel@empresa.com,Empleado
+Sofia,sofia@empresa.com,Empleado
+Pedro,pedro@empresa.com,Empleado
+Laura,laura@empresa.com,Empleado
+Felipe,felipe@empresa.com,Empleado
+Carlos,carlos@empresa.com,Empleado
+Maria,maria@empresa.com,Empleado
+Valeria,valeria@empresa.com,Empleado
+Diego,diego@empresa.com,Empleado
+NuevoEmpleado,NuevoEmpleado@empresa.com,Empleado
