@@ -2,17 +2,22 @@
 
 ## ✅ Objetivo
 
-La práctica buscó que los estudiantes crearan un sistema que no solo gestionara objetos en memoria, sino que también pudiera guardar y cargar esos objetos en archivos de texto de manera robusta y escalable. ESta práctica se centra en la Persistencia de Datos (lectura/escritura de archivos) y el uso de Genéricos/Polimorfismo en el manejo de colecciones, extendiendo la estructura de clases de la Práctica 04.
+La práctica buscó que los estudiantes crearan un sistema que no solo gestionara objetos en memoria, sino que también pudiera guardar y cargar esos objetos en archivos de texto de manera robusta y escalable. Esta práctica se centra en la Persistencia de Datos (lectura/escritura de archivos) y el uso de Genéricos/Polimorfismo en el manejo de colecciones, extendiendo la estructura de clases de la Práctica 04.
 
 ## ✍️ Descripción
 
-* **Persistencia de Datos (Archivos I/O):** Evaluar la correcta implementación y uso de la lectura y escritura de archivos de texto para guardar y recuperar información de usuarios (Administradores.txt y Empleados.txt).
+Esta práctica extiende la estructura de la Práctica 04 introduciendo la gestión de archivos y la implementación de la clase ManejadorLista utilizando Genéricos (<T>) para lograr una manipulación segura y reutilizable de los arreglos de Administrador y Empleado.
 
-* **Polimorfismo y Genéricos:** Demostrar la capacidad de manejar colecciones de diferentes tipos de usuarios (Administrador y Empleado) de manera flexible, implementando una de las versiones avanzadas para la clase ManejadorLista (Sobrecarga, Object, o Genéricos).
-
-* **Modularidad (Clase ManejadorArchivos):** Diseñar una clase utilitaria (ManejadorArchivos) que simplifique y centralice las operaciones de entrada/salida con archivos, asegurando un manejo adecuado de excepciones y recursos.
-
-* **Retomar Conceptos Previos:** Retomar y aprovechar los conceptos desarrollados en la Práctica 04 (Clases Abstractas, Herencia, Interfaces) para construir sobre la implementación existente.
+* **Características clave:**
+1. **Manejo de Archivos:** Se implementa la clase ManejadorArchivos en el paquete utilidades/ para centralizar la lectura y escritura de archivos, garantizando el manejo de excepciones y el cierre correcto de recursos.
+2. **Genéricos:** Se eligió la Versión 3 (Genéricos) para modificar ArreglosInterface a ArreglosInterface<T> y ManejadorLista a ManejadorLista<T>.
+3. **Flujo de Ejecución (Clase Main):**
+* Recibe un arreglo de 10 nombres como argumentos de la terminal.
+* Crea arreglos de 10 Empleados y 10 Administradores con estos nombres.
+* Invierte el orden de ambos arreglos usando ManejadorLista<T>.
+* Guarda los arreglos revertidos en BD/Empleados.txt y BD/Administradores.txt.
+* Añade un nuevo Empleado y un nuevo Administrador a sus respectivos archivos.
+* Lee y muestra por consola las listas finales (11 elementos) de ambos archivos.
 
 ## ⚙️ Tecnologías utilizadas
 
@@ -47,7 +52,7 @@ El proyecto está organizado en la siguiente estructura de directorios:
 
 **│       └── ManejadorArchivos.java**
 
-**├── BD/
+**├── BD/**
 
 **│   ├── Empleados.txt  <- Archivo de datos de Empleados**
 
