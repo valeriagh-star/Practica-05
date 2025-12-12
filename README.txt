@@ -4,7 +4,8 @@ García Herrera Valeria
 R= Porque la versión de Genéricos (Versión 3) es la opción preferida en lenguajes como Java o C# para crear colecciones y clases de manejo de datos reutilizables y seguras en tipo.
 
 •  De las tres opciones, ¿Cuál brinda mayor escalabilidad y por qué?
-R= La opción que brinda mayor escalabilidad es la Versión 3: Genéricos. ¿Por qué? Por el Manejo de Nuevos Tipos (Escalabilidad Horizontal): Si en el futuro se añade un nuevo tipo de usuario, la implementación del ManejadorLista<T> no requiere cambios. Simplemente se instancia como ManejadorLista<Gerente>, y funcionará perfectamente. 
+R= La opción que brinda mayor escalabilidad es la Versión 3: Genéricos. ¿Por qué? Por el Manejo de Nuevos Tipos (Escalabilidad Horizontal): Si en el futuro se añade un nuevo tipo de usuario, 
+la implementación del ManejadorLista<T> no requiere cambios. Simplemente se instancia como ManejadorLista<Gerente>, y funcionará perfectamente. 
 Así como también por la Elegancia del Código (Escalabilidad de Mantenimiento): Reduce la necesidad de código duplicado o de lógica compleja de casting. El código es más fácil de leer, mantener y extender.
 
 
@@ -18,3 +19,4 @@ Así como también por la Elegancia del Código (Escalabilidad de Mantenimiento)
 2.	Complejidad en Clases Anidadas/Herencia: Puede ser un poco más complejo de entender o implementar al principio, especialmente al trabajar con herencia de genéricos o tipos con wildcards avanzados.
 
 3.	Restricciones de Instanciación: En muchos lenguajes (como Java), no se puede instanciar directamente un arreglo del tipo genérico T debido al borrado de tipos (type erasure), lo que a veces requiere soluciones alternativas (como casting inseguro o pasar la clase Class<T> al constructor).
+
