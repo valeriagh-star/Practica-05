@@ -1,10 +1,9 @@
+<div align="justify">
 # Practica-05
 
 ## ✅ Objetivo
 
-<div align="justify">
 La práctica buscó que los estudiantes crearan un sistema que no solo gestionara objetos en memoria, sino que también pudiera guardar y cargar esos objetos en archivos de texto de manera robusta y escalable. Esta práctica se centra en la Persistencia de Datos (lectura/escritura de archivos) y el uso de Genéricos/Polimorfismo en el manejo de colecciones, extendiendo la estructura de clases de la Práctica 04.
-</div>
 
 ## ✍️ Descripción
 
@@ -102,4 +101,4 @@ El código fuente de los directorios está organizado por paquetes y se puede re
 * Ejemplo de nombres a usar: "Elena", "Miguel", "Sofia", "Pedro", "Laura", "Felipe", "Carlos", "Maria", "Valeria", "Diego".
 7. **Guardar y Ejecutar:** Haz clic en el botón Apply (Aplicar) para guardar la configuración, y luego haz clic en Run (Ejecutar).
 8. **Verificación:** El programa se ejecutará y en la consola deberías ver la salida correspondiente: la confirmación de la ENTRADA RECIBIDA, el PROCESAMIENTO DE DATOS (creación y reversión de listas, escritura de archivos) y el RESULTADO FINAL de 11 elementos por cada archivo (Administradores.txt y Empleados.txt).
-   
+</div>
