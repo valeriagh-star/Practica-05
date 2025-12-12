@@ -2,11 +2,17 @@
 
 ## ✅ Objetivo
 
-
+La práctica buscó que los estudiantes crearan un sistema que no solo gestionara objetos en memoria, sino que también pudiera guardar y cargar esos objetos en archivos de texto de manera robusta y escalable. ESta práctica se centra en la Persistencia de Datos (lectura/escritura de archivos) y el uso de Genéricos/Polimorfismo en el manejo de colecciones, extendiendo la estructura de clases de la Práctica 04.
 
 ## ✍️ Descripción
 
+* **Persistencia de Datos (Archivos I/O):** Evaluar la correcta implementación y uso de la lectura y escritura de archivos de texto para guardar y recuperar información de usuarios (Administradores.txt y Empleados.txt).
 
+* **Polimorfismo y Genéricos:** Demostrar la capacidad de manejar colecciones de diferentes tipos de usuarios (Administrador y Empleado) de manera flexible, implementando una de las versiones avanzadas para la clase ManejadorLista (Sobrecarga, Object, o Genéricos).
+
+* **Modularidad (Clase ManejadorArchivos):** Diseñar una clase utilitaria (ManejadorArchivos) que simplifique y centralice las operaciones de entrada/salida con archivos, asegurando un manejo adecuado de excepciones y recursos.
+
+* **Retomar Conceptos Previos:** Retomar y aprovechar los conceptos desarrollados en la Práctica 04 (Clases Abstractas, Herencia, Interfaces) para construir sobre la implementación existente.
 
 ## ⚙️ Tecnologías utilizadas
 
@@ -17,27 +23,22 @@
 
 El proyecto está organizado en la siguiente estructura de directorios:
 
-**Proyecto/**
-  
-  **├── src/**
-
-  **│   ├── modulos/**
-  
-  **│   │      ├── Administrador.java**
- 
-  **│   │      ├── Empleado.java**
-  
-  **│   │      └── Usuario.java**
-
-  **│   ├── Interfaces/**
-  
-  **│   │      └── ArregloInterface.java**
- 
-  **│   ├── Main.java**
-
-  **│   └── ManejadorLista.java**
-  
-  **└── README.txt**
+**Proyecto/
+├── src/
+│   ├── modulos/
+│   │   ├── Usuario.java
+│   │   ├── Administrador.java
+│   │   └── Empleado.java
+│   ├── Interfaces/
+│   │   └── ArregloInterface.java
+│   ├── Main.java
+│   ├── ManejadorLista.java
+│   └── utilidades/
+│       └── ManejadorArchivos.java
+├── BD/
+│   ├── Empleados.txt  <- Archivo de datos de Empleados
+│   └── Administradores.txt <- Archivo de datos de Administradores
+└── README.txt**
 
 ## 📸 Evidencias (Capturas de pantalla)
 
