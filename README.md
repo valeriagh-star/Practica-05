@@ -12,12 +12,12 @@ Esta práctica extiende la estructura de la Práctica 04 introduciendo la gesti�
 1. **Manejo de Archivos:** Se implementa la clase ManejadorArchivos en el paquete utilidades/ para centralizar la lectura y escritura de archivos, garantizando el manejo de excepciones y el cierre correcto de recursos.
 2. **Genéricos:** Se eligió la Versión 3 (Genéricos) para modificar ArreglosInterface a ArreglosInterface<T> y ManejadorLista a ManejadorLista<T>.
 3. **Flujo de Ejecución (Clase Main):**
-* Recibe un arreglo de 10 nombres como argumentos de la terminal.
-* Crea arreglos de 10 Empleados y 10 Administradores con estos nombres.
-* Invierte el orden de ambos arreglos usando ManejadorLista<T>.
-* Guarda los arreglos revertidos en BD/Empleados.txt y BD/Administradores.txt.
-* Añade un nuevo Empleado y un nuevo Administrador a sus respectivos archivos.
-* Lee y muestra por consola las listas finales (11 elementos) de ambos archivos.
+  * Recibe un arreglo de 10 nombres como argumentos de la terminal.
+  * Crea arreglos de 10 Empleados y 10 Administradores con estos nombres.
+  * Invierte el orden de ambos arreglos usando ManejadorLista<T>.
+  * Guarda los arreglos revertidos en BD/Empleados.txt y BD/Administradores.txt.
+  * Añade un nuevo Empleado y un nuevo Administrador a sus respectivos archivos.
+  * Lee y muestra por consola las listas finales (11 elementos) de ambos archivos.
 
 ## ⚙️ Tecnologías utilizadas
 
