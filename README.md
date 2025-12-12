@@ -91,7 +91,13 @@ El código fuente de los directorios está organizado por paquetes y se puede re
 
 ## ▶️ Instrucciones de ejecución
 
-1.  **Clonar/Importar el repositorio el Repositorio:** Importa la carpeta Proyecto como un proyecto Java existente en Eclipse o IntelliJ.
-2.  **Abrir Main:** Localiza el archivo src/Main.java.
-3.  **Ejecutar:** Haz clic derecho sobre src/Main.java y selecciona "Run As" -> "Java Application".
-4.  **Interacción:** El programa solicitará el Nombre, Correo y Rol (Empleado o Administrador) para crear un nuevo usuario. El programa manejará las validaciones automáticamente (Manejo de Excepciones) para el nombre de usuario (mínimo 5 caracteres) y el formato del correo electrónico (@ y .com). Se mostrará el menú correspondiente al Rol ingresado (Administrador o Empleado).
+1. **Clonar/Importar:** Importa la carpeta Proyecto como un proyecto Java existente en Eclipse o IntelliJ.
+2.  **Posicionarse:** Localiza el archivo Main.java (o MainTarea05.java) dentro de la carpeta src/.
+3. **Accede a Configuraciones:** En la barra de menú superior de Eclipse, haz clic en Run -> Run Configurations...
+4. **Selecciona tu Clase:** En el panel izquierdo de la ventana "Run Configurations", expande Java Application y selecciona la configuración correspondiente a tu clase principal (ej., Main o MainTarea05). Si no existe, haz doble clic en Java Application para crear una nueva.
+5. **Ve a la Pestaña "Arguments":** En la parte superior derecha de la ventana, haz clic en la pestaña Arguments.
+6. **Ingresa los 10 Nombres:** En el cuadro de texto etiquetado como "Program arguments", introduce exactamente 10 nombres separados por un espacio. Estos serán los valores que recibirá el arreglo String[] args en tu método main.
+* Ejemplo de nombres a usar: "Elena", "Miguel", "Sofia", "Pedro", "Laura", "Felipe", "Carlos", "Maria", "Valeria", "Diego".
+7. **Guardar y Ejecutar:** Haz clic en el botón Apply (Aplicar) para guardar la configuración, y luego haz clic en Run (Ejecutar).
+8. **Verificación:** El programa se ejecutará y en la consola deberías ver la salida correspondiente: la confirmación de la ENTRADA RECIBIDA, el PROCESAMIENTO DE DATOS (creación y reversión de listas, escritura de archivos) y el RESULTADO FINAL de 11 elementos por cada archivo (Administradores.txt y Empleados.txt).
+   
