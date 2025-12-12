@@ -72,22 +72,22 @@ El código fuente de los directorios está organizado por paquetes y se puede re
 
 | Carpetas | Ruta del Archivo .java |
 | :--- | :--- |
-| **Clase Usuario** | [src/modulos/Usuario.java]() | 
-| **Clase Administrador** | [src/modulos/Administrador.java]() |
-| **Clase Empleado** | [src/modulos/Empleado.java]() |
-| **Interfaz ArregloInterface_V1** | [src/interfaces/arregloInterface_V1.java]() |
-| **Interfaz ArregloInterface_V2** | [src/interfaces/arregloInterface_V2.java]() |
-| **Interfaz ArregloInterface_V3** | [src/interfaces/arregloInterface_V3.java]() |
-| **Clase ManejadorArchivos** | [src/utilidades/ManejadorArchivos.java]() |
-| **Clase ManejadorLista_V1** | [src/utilidades/ManejadorLista_V1.java]() |
-| **Clase ManejadorLista_V2** | [src/utilidades/ManejadorLista_V2.java]() |
-| **Clase ManejadorLista_V3** | [src/utilidades/ManejadorLista_V3.java]() |
-| **Clase Main** | [src/Main/Main.java]() |
-| **Clase MainTarea05** | [src/MainTarea05/MainTarea05.java]() | 
-| **Clase ManejadorLista** | [src/ManejadorLista/ManejadorLista.java]() |
-| **Administradores.txt** | [src/BD/Administradores.txt]() |
-| **Empleados.txt** | [src/BD/Empleados.txt]() | 
-| **README** | [Practica05/main/README.txt]() | 
+| **Clase Usuario** | [src/modulos/Usuario.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/modulos/Usuario.java) | 
+| **Clase Administrador** | [src/modulos/Administrador.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/modulos/Administrador.java) |
+| **Clase Empleado** | [src/modulos/Empleado.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/modulos/Empleado.java) |
+| **Interfaz ArregloInterface_V1** | [src/interfaces/arregloInterface_V1.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/interfaces/arregloInterface_V1.java) |
+| **Interfaz ArregloInterface_V2** | [src/interfaces/arregloInterface_V2.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/interfaces/arregloInterface_V2.java) |
+| **Interfaz ArregloInterface_V3** | [src/interfaces/arregloInterface_V3.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/interfaces/arregloInterface_V3.java) |
+| **Clase ManejadorArchivos** | [src/utilidades/ManejadorArchivos.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/utilidades/ManejadorArchivos.java) |
+| **Clase ManejadorLista_V1** | [src/utilidades/ManejadorLista_V1.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/utilidades/ManejadorLista_V1.java) |
+| **Clase ManejadorLista_V2** | [src/utilidades/ManejadorLista_V2.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/utilidades/ManejadorLista_V2.java) |
+| **Clase ManejadorLista_V3** | [src/utilidades/ManejadorLista_V3.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/utilidades/ManejadorLista_V3.java) |
+| **Clase Main** | [src/Main/Main.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/Main.java) |
+| **Clase MainTarea05** | [src/MainTarea05/MainTarea05.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/MainTarea05.java) | 
+| **Clase ManejadorLista** | [src/ManejadorLista/ManejadorLista.java](https://github.com/valeriagh-star/Practica-05/blob/main/src/ManejadorLista.java) |
+| **Administradores.txt** | [src/BD/Administradores.txt](https://github.com/valeriagh-star/Practica-05/blob/main/src/BD/Administradores.txt) |
+| **Empleados.txt** | [src/BD/Empleados.txt](https://github.com/valeriagh-star/Practica-05/blob/main/src/BD/Empleados.txt) | 
+| **README** | [Practica05/main/README.txt](https://github.com/valeriagh-star/Practica-05/blob/main/README.txt) | 
 
 ## ▶️ Instrucciones de ejecución
 
